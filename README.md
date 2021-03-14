@@ -8,6 +8,8 @@ class Data
 -pass:int
 
 Data()
+setid()int
+setuser()string
 getusername()string
 getpass()int
 wel()void
