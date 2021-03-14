@@ -16,11 +16,16 @@ public class Data {
 		username = nnewuser;
 		pass = newpass;
 	}
-	//public void setid(int nnewpass){  //Setter
+	public void setid(int nnewpass){  //Setter
 
-		 // this.pass = nnewpass;
+		  this.pass = nnewpass;
 
-//	}	
+	}	
+	public void setuser(String nnewuser){  //Setter
+
+	  this.username = nnewuser;
+
+}	
 	public String getusername(){             //Getter
 		 
 		 return username;
@@ -31,6 +36,6 @@ public class Data {
 	}
 	 public void wel() {
 		
-		System.out.println("Hi Nawaf");
+		System.out.println("Hi"+username);
 	}
 }
