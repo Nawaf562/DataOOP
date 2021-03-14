@@ -8,8 +8,8 @@ class Data
 -pass:int
 
 Data()
-setid()int
-setuser()string
+setid(nnewpass:int)void
+setuser(nnewuser:string)void
 getusername()string
 getpass()int
 wel()void
